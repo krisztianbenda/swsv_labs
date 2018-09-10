@@ -96,6 +96,7 @@ public class Test extends TestCase{
 			assertEquals(24, pe.getPosition());
 			System.out.println("Error at character position: " + pe.getPosition());
 			switch(pe.getErrorType()){
+			default:
 			case ParseException.ERROR_UNEXPECTED_TOKEN:
 				System.out.println("Unexpected token: " + pe.getUnexpectedObject());
 				break;
