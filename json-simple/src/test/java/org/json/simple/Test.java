@@ -105,6 +105,9 @@ public class Test extends TestCase{
 			case ParseException.ERROR_UNEXPECTED_EXCEPTION:
 				((Exception)pe.getUnexpectedObject()).printStackTrace();
 				break;
+			default:
+				System.out.println("Unexpected error type: " + pe.getErrorType());
+				break;
 			}
 		}
 		
