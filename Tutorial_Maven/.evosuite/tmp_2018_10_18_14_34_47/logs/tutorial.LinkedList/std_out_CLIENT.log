@@ -1,0 +1,72 @@
+* Starting client
+* Connecting to master process on port 11958
+* Analyzing classpath: 
+  - /Users/krisztian/repos/java/src/github.com/krisztianbenda/swsv_labs/Tutorial_Maven/target/classes
+  - /Users/krisztian/.m2/repository/junit/junit/4.12/junit-4.12.jar
+  - /Users/krisztian/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class tutorial.LinkedList
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 14:37:47.909 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: /Users/krisztian/repos/java/src/github.com/krisztianbenda/swsv_labs/Tutorial_Maven/.evosuite/evosuite-seeds/tutorial.LinkedList.seed
+* Loaded 0 tests from /Users/krisztian/repos/java/src/github.com/krisztianbenda/swsv_labs/Tutorial_Maven/.evosuite/evosuite-seeds/tutorial.LinkedList.seed
+* Total number of test goals: 
+  - Line 21
+  - Branch 14
+  - Exception 0
+  - MutationFactory 19
+  - Output 8
+  - Method 6
+  - MethodNoException 6
+  - CBranchFitnessFactory 14
+* Using seed 1539866266377
+* Starting evolution
+* Search finished after 31s and 686 generations, 117113 statements, best individual has fitness: 1.3333333333333333
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 21
+* Number of covered goals: 21
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 14
+* Number of covered goals: 14
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 100%
+* Total number of goals: 19
+* Number of covered goals: 19
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 88%
+* Total number of goals: 8
+* Number of covered goals: 7
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 14
+* Number of covered goals: 14
+* Generated 10 tests with total length 35
+* Resulting test suite's coverage: 98% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 58%
+* Compiling and checking tests

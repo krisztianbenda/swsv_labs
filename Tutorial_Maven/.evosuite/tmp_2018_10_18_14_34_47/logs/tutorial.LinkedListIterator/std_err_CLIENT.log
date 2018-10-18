@@ -1,0 +1,1 @@
+[MASTER] 14:34:53.133 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for tutorial.Node<T> : Type points to itself
