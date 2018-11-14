@@ -1,3 +1,4 @@
 json-simple/.idea/findbugs-idea.xml
 json-simple/.idea/workspace.xml
 json-simple/target/classes/org/json/simple/ItemList.class
+.DS_Store
