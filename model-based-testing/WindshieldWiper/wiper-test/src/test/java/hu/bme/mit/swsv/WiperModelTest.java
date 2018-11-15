@@ -1,16 +1,21 @@
 package hu.bme.mit.swsv;
 
 import hu.bme.mit.swsv.impl.WiperControllerImpl;
-import org.apache.xmlbeans.impl.common.XPath;
 import org.graphwalker.core.condition.EdgeCoverage;
+import org.graphwalker.core.condition.TimeDuration;
 import org.graphwalker.core.generator.RandomPath;
+import org.graphwalker.core.machine.ExecutionContext;
 import org.graphwalker.java.annotation.GraphWalker;
+import org.graphwalker.java.test.TestBuilder;
 import org.junit.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
-@GraphWalker(start = "init", stopCondition = EdgeCoverage.class, stopConditionValue = "80", pathGenerator = RandomPath.class)
-public class WiperModelTest extends XPath.ExecutionContext implements WiperModel{
+import java.nio.file.Paths;
+import java.util.concurrent.TimeUnit;
+
+@GraphWalker(start = "init", stopCondition = EdgeCoverage.class, stopConditionValue = "100", pathGenerator = RandomPath.class)
+public class WiperModelTest extends ExecutionContext implements WiperModel{
 
     private WiperController wiperController;
     private WiperMode wiperMode;
@@ -155,6 +160,16 @@ public class WiperModelTest extends XPath.ExecutionContext implements WiperModel
         }
         if (wiperMode != WiperMode.OFF)
             wiperMode = WiperMode.OFF;
+    }
+
+    @Test
+    public void runTests(){
+        new TestBuilder()
+                .setModel(Paths.get("hu/bme/mit/swsv/WiperModel.graphml"))
+                .setContext(new WiperModelTest())
+                .setPathGenerator(new RandomPath(new TimeDuration(30, TimeUnit.SECONDS)))
+                .setStart("init")
+                .execute();
     }
 
 }

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<testsuites time="0.374" tests="1" failures="0" errors="0">
+    <testsuite tests="1" failures="0" errors="0" time="0.374" timestamp="2018-11-15T14:22:48">
+        <properties>
+            <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+            <property name="classworlds.conf" value="/Applications/apache-maven-3.6.0/bin/m2.conf"/>
+            <property name="env.Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.Vk2oTTpZdg/Render"/>
+            <property name="env.COLORFGBG" value="12;8"/>
+            <property name="env.COLORTERM" value="truecolor"/>
+            <property name="env.DEFAULT_USER" value="krisztian"/>
+            <property name="env.GOPATH" value="/Users/krisztian/repos/go/:/Users/krisztian/repos/go/src/github.ibm.com/watsonmedia/enrichment-jobs"/>
+            <property name="env.HOME" value="/Users/krisztian"/>
+            <property name="env.ITERM_PROFILE" value="Default"/>
+            <property name="env.ITERM_SESSION_ID" value="w0t4p0:B2550ECA-F549-48DB-8926-16EEC5338EE8"/>
+            <property name="env.JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/"/>
+            <property name="env.JAVA_MAIN_CLASS_34504" value="org.codehaus.plexus.classworlds.launcher.Launcher"/>
+            <property name="env.KUBECONFIG" value="/Users/krisztian/.bluemix/plugins/container-service/clusters/w4m-arena-ams03/kube-config-ams03-w4m-arena-ams03.yml:/Users/krisztian/.bluemix/plugins/container-service/clusters/w4m-dev-ams03/kube-config-ams03-w4m-dev-ams03.yml:/Users/krisztian/.bluemix/plugins/container-service/clusters/w4m-infra-ams03/kube-config-ams03-w4m-infra-ams03.yml:/Users/krisztian/.bluemix/plugins/container-service/clusters/w4m-prod-ams03/kube-config-ams03-w4m-prod-ams03.yml:/Users/krisztian/.bluemix/plugins/container-service/clusters/w4m-release-test-ams03/kube-config-ams03-w4m-release-test-ams03.yml:/Users/krisztian/.bluemix/plugins/container-service/clusters/w4m-staging-ams03/kube-config-ams03-w4m-staging-ams03.yml:/Users/krisztian/.bluemix/plugins/container-service/clusters/w4m-travis01-ams03/kube-config-ams03-w4m-travis01-ams03.yml:/Users/krisztian/.bluemix/plugins/container-service/clusters/w4m-prod-wdc04/kube-config-wdc04-w4m-prod-wdc04.yml:/Users/krisztian/.bluemix/plugins/container-service/clusters/w4m-dev-dal12/kube-config-dal12-w4m-dev-dal12.yml:/Users/krisztian/.bluemix/plugins/container-service/clusters/w4m-prod-dal12/kube-config-dal12-w4m-prod-dal12.yml"/>
+            <property name="env.LANG" value="hu_HU.UTF-8"/>
+            <property name="env.LC_CTYPE" value="en_US.UTF-8"/>
+            <property name="env.LESS" value="-R"/>
+            <property name="env.LOGNAME" value="krisztian"/>
+            <property name="env.LSCOLORS" value="Gxfxcxdxbxegedabagacad"/>
+            <property name="env.MAVEN_CMD_LINE_ARGS" value=" graphwalker:test"/>
+            <property name="env.MAVEN_PROJECTBASEDIR" value="/Users/krisztian/repos/java/src/github.ibm.com/krisztianbenda/swsv_labs/model-based-testing/WindshieldWiper/wiper-test"/>
+            <property name="env.OLDPWD" value="/Users/krisztian/repos/java/src/github.ibm.com/krisztianbenda/swsv_labs/model-based-testing/WindshieldWiper/wiper-test"/>
+            <property name="env.PAGER" value="less"/>
+            <property name="env.PATH" value="/Users/krisztian/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/apache-maven-3.6.0/bin/"/>
+            <property name="env.PWD" value="/Users/krisztian/repos/java/src/github.ibm.com/krisztianbenda/swsv_labs/model-based-testing/WindshieldWiper/wiper-test"/>
+            <property name="env.SHELL" value="/bin/zsh"/>
+            <property name="env.SHLVL" value="1"/>
+            <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.gf7QVF6X0p/Listeners"/>
+            <property name="env.TERM" value="xterm-256color"/>
+            <property name="env.TERM_PROGRAM" value="iTerm.app"/>
+            <property name="env.TERM_PROGRAM_VERSION" value="3.2.5"/>
+            <property name="env.TERM_SESSION_ID" value="w0t4p0:B2550ECA-F549-48DB-8926-16EEC5338EE8"/>
+            <property name="env.TMPDIR" value="/var/folders/2g/bmmn0w8s2xn44l8_f_kn70q80000gn/T/"/>
+            <property name="env.USER" value="krisztian"/>
+            <property name="env.WM_B64_SECRET" value="eyJubHUiOnsicGFzc3dvcmQiOiI0QkFuUUtRVnhsZkgiLCJ1c2VyIjoiOTBlMWJkMzctYzc3OC00YzJlLTg5NjItZjQ2YTVhYTUxOTc4In0sInN0dCI6eyJwYXNzd29yZCI6Im1DeVJhbGNVRGVwQiIsInVzZXIiOiIxNDEzYzQzMC1kMTE5LTQ3MzYtOGU2MC02ZmE2NmNlMGQyNTIifSwidnIiOnsia2V5IjoiUWxFVDFiay1WMXpqcmlNVEpyYVJHZ0ZoNUhFRGMyeXJnMkRPRTJOUGE5SEQifX0K"/>
+            <property name="env.WM_STT_REGION_SECRET" value="eyJldS1kZSI6eyJwYXNzIjoibUN5UmFsY1VEZXBCIiwidXJsIjoiaHR0cHM6Ly9zdHJlYW0ud2F0c29ucGxhdGZvcm0ubmV0L3NwZWVjaC10by10ZXh0L2FwaSIsInVzZXIiOiIxNDEzYzQzMC1kMTE5LTQ3MzYtOGU2MC02ZmE2NmNlMGQyNTIifX0K"/>
+            <property name="env.XPC_FLAGS" value="0x0"/>
+            <property name="env.XPC_SERVICE_NAME" value="0"/>
+            <property name="env.ZSH" value="/Users/krisztian/.oh-my-zsh"/>
+            <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+            <property name="file.encoding" value="UTF-8"/>
+            <property name="file.encoding.pkg" value="sun.io"/>
+            <property name="file.separator" value="/"/>
+            <property name="gopherProxySet" value="false"/>
+            <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+            <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+            <property name="java.class.path" value="/Applications/apache-maven-3.6.0/boot/plexus-classworlds-2.5.2.jar"/>
+            <property name="java.class.version" value="52.0"/>
+            <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/endorsed"/>
+            <property name="java.ext.dirs" value="/Users/krisztian/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+            <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre"/>
+            <property name="java.io.tmpdir" value="/var/folders/2g/bmmn0w8s2xn44l8_f_kn70q80000gn/T/"/>
+            <property name="java.library.path" value="/Users/krisztian/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+            <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+            <property name="java.runtime.version" value="1.8.0_191-b12"/>
+            <property name="java.specification.name" value="Java Platform API Specification"/>
+            <property name="java.specification.vendor" value="Oracle Corporation"/>
+            <property name="java.specification.version" value="1.8"/>
+            <property name="java.vendor" value="Oracle Corporation"/>
+            <property name="java.vendor.url" value="http://java.oracle.com/"/>
+            <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+            <property name="java.version" value="1.8.0_191"/>
+            <property name="java.vm.info" value="mixed mode"/>
+            <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+            <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+            <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+            <property name="java.vm.specification.version" value="1.8"/>
+            <property name="java.vm.vendor" value="Oracle Corporation"/>
+            <property name="java.vm.version" value="25.191-b12"/>
+            <property name="library.jansi.path" value="/Applications/apache-maven-3.6.0/lib/jansi-native"/>
+            <property name="line.separator" value="&#xA;"/>
+            <property name="maven.build.version" value="Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T20:41:47+02:00)"/>
+            <property name="maven.conf" value="/Applications/apache-maven-3.6.0/conf"/>
+            <property name="maven.home" value="/Applications/apache-maven-3.6.0"/>
+            <property name="maven.multiModuleProjectDirectory" value="/Users/krisztian/repos/java/src/github.ibm.com/krisztianbenda/swsv_labs/model-based-testing/WindshieldWiper/wiper-test"/>
+            <property name="maven.version" value="3.6.0"/>
+            <property name="os.arch" value="x86_64"/>
+            <property name="os.name" value="Mac OS X"/>
+            <property name="os.version" value="10.14"/>
+            <property name="path.separator" value=":"/>
+            <property name="sun.arch.data.model" value="64"/>
+            <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/classes"/>
+            <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
+            <property name="sun.cpu.endian" value="little"/>
+            <property name="sun.cpu.isalist" value=""/>
+            <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+            <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher graphwalker:test"/>
+            <property name="sun.java.launcher" value="SUN_STANDARD"/>
+            <property name="sun.jnu.encoding" value="UTF-8"/>
+            <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+            <property name="sun.os.patch.level" value="unknown"/>
+            <property name="user.country" value="HU"/>
+            <property name="user.dir" value="/Users/krisztian/repos/java/src/github.ibm.com/krisztianbenda/swsv_labs/model-based-testing/WindshieldWiper/wiper-test"/>
+            <property name="user.home" value="/Users/krisztian"/>
+            <property name="user.language" value="en"/>
+            <property name="user.name" value="krisztian"/>
+            <property name="user.timezone" value=""/>
+        </properties>
+        <testcase name="WiperModelTest" time="0.374" classname="hu.bme.mit.swsv.WiperModelTest"/>
+    </testsuite>
+</testsuites>
